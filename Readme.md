@@ -15,6 +15,10 @@ Following activities will be observed after clicking on the application. Activit
 
 ![image](https://cloud.githubusercontent.com/assets/6923058/18263920/a882143e-743f-11e6-9f0a-96f85e9ab557.png)
 
+This idea discusses about user embarking and disembarking the ride. When the user is waiting for his ride the system picks up user’s location from his mobile GPS. When the user embarks the ride the GPS pointer of the AV and user align together this is validated by the server by continuous location data flow of both user and AV. If both the coordinates stay aligned generates the conclusion that the user has embarked the ride.
+When the user and AV location data changes it is validated by the server for next 5 second before sending the notification of user disembarking the ride. This data is useful for analyzing real time movement of the people. 
+
+
 ![image](https://cloud.githubusercontent.com/assets/6923058/18263924/ae20afc2-743f-11e6-822e-7c78f3abb9ee.png)
 
 ![image](https://cloud.githubusercontent.com/assets/6923058/18263929/b2e8a8d4-743f-11e6-9a14-88190c63e8c1.png)
